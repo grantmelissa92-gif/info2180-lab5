@@ -59,7 +59,19 @@ header h1{
 }
 
 #result{
-    max-width: 700px;
+    width: 70%;
     margin: 40px auto;
     font-size: 18px;
+}
+
+#result table{
+    width: 100%;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+#result th{
+    text-align: left;
+}
+#result td{
+    border-bottom: 2px;
 }
